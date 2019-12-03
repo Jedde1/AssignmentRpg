@@ -4,15 +4,32 @@ using UnityEngine;
 
 public class NewCustom : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject[] skins;
+    private int currentSkin;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        for (int i = 0; i < skins.Length; i++)
+        {
+            if (i == currentSkin)
+            {
+                skins[i].SetActive(true);
+            }
+            else
+            {
+                skins[i].SetActive(false);
+            }
+        }
+    }
+    public void SwitchSkins()
+    {
+        if (currentSkin == skins.Length - 1)
+        {
+            currentSkin = 0;
+        }
+        else
+        {
+            currentSkin++;
+        }
     }
 }
