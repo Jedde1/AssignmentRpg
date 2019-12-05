@@ -36,10 +36,11 @@ public class Interact : MonoBehaviour
                         }
                         Debug.Log("Talk to NPC is Triggered");
                         break;
+
                     case "Item":
                         Debug.Log("Pick up Item");
                         ItemHandler handler = hitInfo.transform.GetComponent<ItemHandler>();
-                        if(handler != null)
+                        if (handler != null)
                         {
                             handler.Oncollection();
                         }
@@ -55,7 +56,7 @@ public class Interact : MonoBehaviour
                             Cursor.lockState = CursorLockMode.None;
                             Time.timeScale = 0;
                         }
-                            break;
+                        break;
                     case "Shop":
                         Shop shop = hitInfo.transform.GetComponent<Shop>();
                         if (shop != null)
