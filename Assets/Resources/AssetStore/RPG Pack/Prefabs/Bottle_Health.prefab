@@ -9463,9 +9463,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4000010690109084}
   - component: {fileID: 630708527407099969}
+  - component: {fileID: 6794899039890124836}
   m_Layer: 0
   m_Name: Bottle_Health
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9498,7 +9499,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 607296d8a36c14f4ca7e9c0969192200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
-  spriteNeutral: {fileID: 21300000, guid: 017737e91c7499748b2f0de6e44287d0, type: 3}
-  spriteHighlighted: {fileID: 0}
-  maxSize: 0
+  type: 1
+  maxSize: 1
+--- !u!65 &6794899039890124836
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012970591572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 1, z: 0}

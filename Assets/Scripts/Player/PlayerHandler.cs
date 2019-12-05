@@ -52,6 +52,8 @@ public class PlayerHandler : MonoBehaviour
     public CharacterClass characterClass;
     public string characterName;
     public string firstCheckPointName = "First CheckPoint";
+
+    public NewInventory inventory;
     // Start is called before the first frame update
     void Start()
     {
@@ -160,6 +162,14 @@ public class PlayerHandler : MonoBehaviour
                 saveAndLoad.Save();
             }
         }
+        
+        
+            if (other.tag == "Item")
+            {
+                inventory.AddItem(GetComponent<RPGItem>());
+                Debug.Log("Pick up Item");
+            }
+        
     }
     private void OnTriggerExit(Collider other)
     {

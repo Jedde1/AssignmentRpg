@@ -11622,6 +11622,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   showChest: 0
   itemsToSpawn: 2c010000bc020000
 --- !u!1 &1344492952
@@ -12105,7 +12145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519018522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.2, y: 4.7, z: 84.9}
+  m_LocalPosition: {x: 47.2, y: 1, z: 84.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5289444745482216692}
@@ -12222,6 +12262,7 @@ MonoBehaviour:
   characterClass: 0
   characterName: 
   firstCheckPointName: First CheckPoint
+  inventory: {fileID: 1724285126}
 --- !u!82 &1519018531
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12325,139 +12366,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519018522}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab4302c4e24768640bcf307736a06075, type: 3}
+  m_Script: {fileID: 11500000, guid: 737d5438483b1ba4e9895daa65c09106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scr: {x: 0, y: 0}
-  scrollPos: {x: 0, y: 0}
-  sortType: All
-  dropLocation: {fileID: 280096208}
-  equippedItems:
-  - slotName: Head
-    location: {fileID: 5289444745482216644}
-    equippedItem: {fileID: 0}
-  - slotName: Hand
-    location: {fileID: 5289444745482216676}
-    equippedItem: {fileID: 0}
-  invFilterOptions: 0
-  invSkin: {fileID: 11400000, guid: 8474678b4e220394c85b70534783c8c1, type: 2}
-  titleStyle:
-    m_Name: 
-    m_Normal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-    m_Hover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-    m_Active:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-    m_Focused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-    m_OnNormal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-    m_OnHover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-    m_OnActive:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-    m_OnFocused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
 --- !u!1001 &1553610497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14520,6 +14433,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   showShop: 0
   itemsToSpawn: 000000000000000000000000
 --- !u!1 &2075192591
@@ -14851,18 +14804,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f05f4bbc72788a04da155a927c5572fc, type: 3}
---- !u!4 &5289444745482216644 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6065152883309269220, guid: f05f4bbc72788a04da155a927c5572fc,
-    type: 3}
-  m_PrefabInstance: {fileID: 2111099232111031328}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &5289444745482216676 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6065152883309269188, guid: f05f4bbc72788a04da155a927c5572fc,
-    type: 3}
-  m_PrefabInstance: {fileID: 2111099232111031328}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5289444745482216692 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6065152883309269204, guid: f05f4bbc72788a04da155a927c5572fc,

@@ -68,7 +68,7 @@ public class NewInventory : MonoBehaviour
     }
     public bool AddItem(RPGItem item)
     {
-        if (item.maxSize == 1)
+        if (RPGItem.maxSize == 1)
         {
             PlaceEmpty(item);
             return true;

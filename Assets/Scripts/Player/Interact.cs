@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Interact : MonoBehaviour
 {
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -76,13 +77,11 @@ public class Interact : MonoBehaviour
                 {
                     Debug.Log("Talk to NPC is Triggered");
                 }
-                if (hitInfo.collider.tag == "Item")
-                {
-                    Debug.Log("Pick up Item");
-                }
                 */
+               
             }
 
         }
     }
+    
 }
