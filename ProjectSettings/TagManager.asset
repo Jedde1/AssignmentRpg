@@ -11,6 +11,7 @@ TagManager:
   - Treasure
   - Shop
   - Renderer
+  - SpagBall
   layers:
   - Default
   - TransparentFX

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Interact : MonoBehaviour
 {
-   
     // Start is called before the first frame update
     void Start()
     {
@@ -71,6 +70,7 @@ public class Interact : MonoBehaviour
                         Debug.Log("See Something You Like?");
                         break;
 
+                     
                 }
                 /*
                 if (hitInfo.collider.CompareTag("NPC"))
@@ -83,5 +83,6 @@ public class Interact : MonoBehaviour
 
         }
     }
-    
+   
+
 }

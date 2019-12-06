@@ -4800,7 +4800,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000011650569256}
-  - component: {fileID: 8749145489771398779}
+  - component: {fileID: 3895549569695316993}
   - component: {fileID: 992667549945688837}
   m_Layer: 0
   m_Name: Bottle_Mana
@@ -4825,7 +4825,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8749145489771398779
+--- !u!114 &3895549569695316993
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4838,7 +4838,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 0
-  maxSize: 1
+  spriteNeutral: {fileID: 21300000, guid: 87fbd29aeed14034c9d6b48f75957850, type: 3}
+  spriteHighlighted: {fileID: 21300000, guid: bac622b8acaa5ff4f88cc5f78ff95cbb, type: 3}
+  maxSize: 10
 --- !u!65 &992667549945688837
 BoxCollider:
   m_ObjectHideFlags: 0

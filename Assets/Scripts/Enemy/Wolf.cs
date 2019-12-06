@@ -10,10 +10,7 @@ public class Wolf : Enemy
 
     public override void Attack()
     {
-        Debug.Log("Action 1");
-        base.Attack();
-
-        Debug.Log("Action 2");
+       
     }
     public void BiteAttack()
     {

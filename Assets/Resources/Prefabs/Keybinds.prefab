@@ -236,7 +236,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6241400338550743798}
+      - m_Target: {fileID: 0}
         m_MethodName: changeKey
         m_Mode: 2
         m_Arguments:
@@ -637,7 +637,7 @@ GameObject:
   - component: {fileID: 3228033814285644846}
   - component: {fileID: 3228033814285644840}
   - component: {fileID: 3228033814285644841}
-  - component: {fileID: 6241400338550743798}
+  - component: {fileID: 3967454620835438004}
   m_Layer: 5
   m_Name: Keybinds
   m_TagString: Untagged
@@ -705,7 +705,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
---- !u!114 &6241400338550743798
+--- !u!114 &3967454620835438004
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -714,7 +714,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3228033814285644847}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 674dd55b5085b6e43ae1485ab1221de0, type: 3}
+  m_Script: {fileID: 11500000, guid: c0ce81f86e2992d42bfdb1ee193209d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   up: {fileID: 3228033813498404393}
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6241400338550743798}
+      - m_Target: {fileID: 0}
         m_MethodName: changeKey
         m_Mode: 2
         m_Arguments:
@@ -968,7 +968,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6241400338550743798}
+      - m_Target: {fileID: 0}
         m_MethodName: changeKey
         m_Mode: 2
         m_Arguments:
@@ -1176,7 +1176,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6241400338550743798}
+      - m_Target: {fileID: 0}
         m_MethodName: changeKey
         m_Mode: 2
         m_Arguments:
@@ -1305,7 +1305,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6241400338550743798}
+      - m_Target: {fileID: 0}
         m_MethodName: changeKey
         m_Mode: 2
         m_Arguments:
@@ -1513,7 +1513,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6241400338550743798}
+      - m_Target: {fileID: 0}
         m_MethodName: changeKey
         m_Mode: 2
         m_Arguments:

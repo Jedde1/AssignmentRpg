@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ItemType { Mana, Health};
+public enum ItemType {Mana, Health};
 public class RPGItem : MonoBehaviour
 {
     public ItemType type;
-    public static Sprite spriteNeutral;
-    public static Sprite spriteHighlighted;
-    public int maxSize;
+    public Sprite spriteNeutral;
+    public Sprite spriteHighlighted;
 
+    public int maxSize;
 
     public void Use()
     {

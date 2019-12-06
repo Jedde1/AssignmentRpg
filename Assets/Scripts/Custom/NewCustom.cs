@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewCustom : MonoBehaviour
 {
     public GameObject[] skins;
-    private int currentSkin;
+    public int currentSkin;
 
     private void Update()
     {

@@ -4082,6 +4082,7 @@ MonoBehaviour:
   characterClass: 0
   characterName: 
   firstCheckPointName: First CheckPoint
+  inventory: {fileID: 0}
 --- !u!82 &1045665264
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4195,6 +4196,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  currentSkin: 0
 --- !u!1 &1058280357
 GameObject:
   m_ObjectHideFlags: 0

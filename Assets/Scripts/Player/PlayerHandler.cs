@@ -12,19 +12,19 @@ public class PlayerHandler : MonoBehaviour
         public int value;
     };
 
-    public Text text; 
+    public Text text;
     [Header("Value Variables")]
     public float curHealth;
-    public float curStamina,curMana;
-    public float maxHealth,maxStamina,maxMana,healRate;
-    
+    public float curStamina, curMana;
+    public float maxHealth, maxStamina, maxMana, healRate;
+
     [SerializeField]
     public PlayerStats[] playerStats;
 
     [Header("Value Variables")]
     public Slider healthBar;
-    public Slider manaBar,staminaBar;
-    
+    public Slider manaBar, staminaBar;
+
     [Header("Damage Effect Variables")]
     public Image damageImage;
     public Image deathImage;
@@ -52,8 +52,10 @@ public class PlayerHandler : MonoBehaviour
     public CharacterClass characterClass;
     public string characterName;
     public string firstCheckPointName = "First CheckPoint";
+    public Slot inventory;
 
-    public NewInventory inventory;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -114,10 +116,10 @@ public class PlayerHandler : MonoBehaviour
             }
         }
     }
-      
+
     private void LateUpdate()
     {
-        if(curHealth < maxHealth && curHealth > 0 && canHeal)
+        if (curHealth < maxHealth && curHealth > 0 && canHeal)
         {
             HealOverTime();
         }
@@ -162,14 +164,16 @@ public class PlayerHandler : MonoBehaviour
                 saveAndLoad.Save();
             }
         }
-        
-        
-            if (other.tag == "Item")
-            {
-                inventory.AddItem(GetComponent<RPGItem>());
-                Debug.Log("Pick up Item");
-            }
-        
+        if (other.tag == "SpagBall")
+        {
+            inventory.AddItem(other.GetComponent<RPGItem>());
+            Debug.Log("Pick up Item");
+            //Destroy(other.gameObject);
+        }
+
+
+
+
     }
     private void OnTriggerExit(Collider other)
     {
@@ -195,6 +199,6 @@ public class PlayerHandler : MonoBehaviour
     }
     public void HealOverTime()
     {
-        curHealth += Time.deltaTime * (healRate+playerStats[2].value);
+        curHealth += Time.deltaTime * (healRate + playerStats[2].value);
     }
 }
