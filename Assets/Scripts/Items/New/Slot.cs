@@ -11,7 +11,7 @@ public class Slot : MonoBehaviour, IPointerClickHandler
     public Sprite slotEmpty;
     public Sprite slotHighlight;
 
-    public bool isEmpty
+    public bool IsEmpty
     {
         get { return items.Count == 0; }
     }
@@ -73,7 +73,7 @@ public class Slot : MonoBehaviour, IPointerClickHandler
     }
     public void UseItem()
     {
-        if (!isEmpty)
+        if (!IsEmpty)
         {
             items.Pop().Use();
 
@@ -81,7 +81,7 @@ public class Slot : MonoBehaviour, IPointerClickHandler
             stackText.text = items.Count > 1 ? items.Count.ToString() : string.Empty;
 
             //if the slot is empty use empty slot sprite
-            if (isEmpty)
+            if (IsEmpty)
             {
                 ChangeSprite(slotEmpty, slotHighlight);
                 NewInventory.EmptySlots++;

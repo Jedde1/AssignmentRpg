@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11923,6 +11923,18 @@ Transform:
   m_Father: {fileID: 552316946}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1441041881 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3895549569695316993, guid: 2cf6690298568294cb6b655c0a3aeb87,
+    type: 3}
+  m_PrefabInstance: {fileID: 498618482}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607296d8a36c14f4ca7e9c0969192200, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1478727837
 GameObject:
   m_ObjectHideFlags: 0
@@ -12285,7 +12297,7 @@ MonoBehaviour:
   characterClass: 0
   characterName: 
   firstCheckPointName: First CheckPoint
-  inventory: {fileID: 0}
+  inventory: {fileID: 2062236366}
 --- !u!82 &1519018531
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14354,6 +14366,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showShop: 0
   itemsToSpawn: 
+--- !u!114 &2062236366 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9041225052161573889, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
+    type: 3}
+  m_PrefabInstance: {fileID: 9041225051729462471}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c183225ce87ae4698694ba170ab9b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2075192591
 GameObject:
   m_ObjectHideFlags: 0
@@ -14696,10 +14720,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 172977693}
     m_Modifications:
+    - target: {fileID: 9041225052161573889, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 663114891}
+    - target: {fileID: 9041225052161573889, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
+        type: 3}
+      propertyPath: iconPrefab
+      value: 
+      objectReference: {fileID: 4167158909649949335, guid: f0445021d36893c43af279b2cd5ee69f,
+        type: 3}
+    - target: {fileID: 9041225052161573889, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
+        type: 3}
+      propertyPath: slotSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041225052161573889, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
+        type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 853229666}
+    - target: {fileID: 9041225052161573889, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
+        type: 3}
+      propertyPath: selectedItem
+      value: 
+      objectReference: {fileID: 1441041881}
+    - target: {fileID: 9041225052161573889, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9041225052161573891, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
         type: 3}
       propertyPath: m_Name
       value: Inventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041225052161573891, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9041225052161573890, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
         type: 3}
@@ -14806,26 +14866,5 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.99999994
       objectReference: {fileID: 0}
-    - target: {fileID: 9041225052161573889, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
-        type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 663114891}
-    - target: {fileID: 9041225052161573889, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
-        type: 3}
-      propertyPath: iconPrefab
-      value: 
-      objectReference: {fileID: 4167158909649949335, guid: f0445021d36893c43af279b2cd5ee69f,
-        type: 3}
-    - target: {fileID: 9041225052161573889, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
-        type: 3}
-      propertyPath: slotSize
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 9041225052161573889, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544,
-        type: 3}
-      propertyPath: eventSystem
-      value: 
-      objectReference: {fileID: 853229666}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d09ff6a2a96b8147ba23c5bfc6bd544, type: 3}

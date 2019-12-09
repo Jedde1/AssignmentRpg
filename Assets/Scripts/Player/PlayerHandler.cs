@@ -52,7 +52,8 @@ public class PlayerHandler : MonoBehaviour
     public CharacterClass characterClass;
     public string characterName;
     public string firstCheckPointName = "First CheckPoint";
-    public Slot inventory;
+    public NewInventory inventory;
+   
 
 
 
@@ -115,6 +116,7 @@ public class PlayerHandler : MonoBehaviour
                 }
             }
         }
+       
     }
 
     private void LateUpdate()
@@ -170,10 +172,6 @@ public class PlayerHandler : MonoBehaviour
             Debug.Log("Pick up Item");
             //Destroy(other.gameObject);
         }
-
-
-
-
     }
     private void OnTriggerExit(Collider other)
     {
